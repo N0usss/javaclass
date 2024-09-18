@@ -26,7 +26,7 @@ package controllers;
             double no2 = 9.7;
             double result = no1 * no2;
 
-            if (result >100)
+            if (result <100)
                 System.out.println("Result: " + result);
             else
                 System.out.println("no result given");
